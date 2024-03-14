@@ -9,7 +9,9 @@ void InsertionSort() {
         temp = arr[i]; //step2
 
         j = i - 1; //step 3
-
+        while (j >= 0 && arr[j] > temp) //step 4
+        {
+            
        
     }
 }
